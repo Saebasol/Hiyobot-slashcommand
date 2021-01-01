@@ -14,7 +14,7 @@ json = {
         }
     ],
 }
-headers = {"Authorization": "Bot Toke"}
+headers = {"Authorization": "Bot Token"}
 
 
 res = requests.post(url, headers=headers, json=json)
